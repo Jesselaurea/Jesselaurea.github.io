@@ -1,0 +1,130 @@
+html {
+   margin: 0;
+   height: 100%;
+   width: 100%;
+}
+
+body {
+   margin: 0;
+   min-height: 100%;
+   width: 100%;
+   font-family: ariel, helvetica, sans-serif;
+}
+
+#kuva1 {
+	height: 45px;
+	margin: 15px;
+}
+
+header {
+	background-color: black;
+	color: white;
+	height: 80px;
+	text-align: center;
+	width: 100%;
+}
+
+.nav {
+	margin: 10px;
+}
+
+main {
+	background-color: #E3E0D1;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	height: 70px;
+	padding: 0px;
+	clear: both;
+	width: 100%;
+	margin: auto;
+}
+
+ul {
+	margin: 0;
+	padding-bottom: 20px;
+}
+
+#main_header {
+	text-align: center;
+	margin: auto;
+	padding: 20px 10px 10px 20px;
+}
+
+.card {
+	margin: auto;
+	max-width: 1300px;
+	min-height: 300px;
+	overflow-y: auto;
+}
+
+.carousel-inner {
+	width: 80%;
+	margin: 20px auto 20px auto;
+	background-color: black;
+}
+	
+	
+.campfire, .ProjectF, .Sanderson  {
+	max-height: 220px;
+}
+
+.carousel-caption {
+	color: white;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+#Archive {
+	text-align: center;
+	margin: auto;
+	padding: 15px 20px 20px 15px;
+}
+
+.left {
+	background-color: black;
+	min-width: 280px;
+}
+
+#AboutUs {
+	text-align: center;
+	position: relative;
+	color: white;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+#Otsikko {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+	#AboutUs {
+	background-color: black;
+	color: white;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+	}
+	
+	#Otsikko {
+	position: relative;
+	}
+}
